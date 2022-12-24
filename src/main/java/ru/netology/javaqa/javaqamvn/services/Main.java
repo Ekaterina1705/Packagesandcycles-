@@ -10,7 +10,7 @@ public class Main {
         int min = 10;
         int max = 99;
 
-        int count = service.calculateSQR(-150, 5);
+        int count = service.calc(-150, 5);
 
 
             System.out.println(count);

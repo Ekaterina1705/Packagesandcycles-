@@ -1,11 +1,11 @@
-package  ru.netology.sqr;
+package ru.netology.sqr;
 
 public class SQRService {
-    public static int calculateSQR(int minNumber, int maxNumber) {
+    public int calc(int min, int max) {
         int counter = 0;
         for (int i = 10; i <= 99; i++) {
-            if (i * i >= minNumber) {
-                if (i * i <= maxNumber) {
+            if (i * i >= min) {
+                if (i * i <= max) {
                     counter = counter + 1;
                 }
             }
